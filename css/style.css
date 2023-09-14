@@ -150,7 +150,7 @@ h2 {
   color: #333;
   letter-spacing: 0.2rem;
   margin-top: 0;
-  line-height: 1.5em;
+  line-height: 2em;
 }
 
 .root_right img {
@@ -296,9 +296,10 @@ h4 {
 }
 
 .face_right p {
-  font-size: 18px;
+  font-size: 17px;
   color: #333;
   letter-spacing: 0.1rem;
+  line-height: 2em;
 }
 
 .face_right .img_2 {
