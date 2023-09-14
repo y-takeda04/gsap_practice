@@ -1,0 +1,402 @@
+body {
+  margin: 0;
+}
+
+/* //////////// */
+#mainvisual {
+  background-image: url(../img/mainvisual.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+.mainbox {
+  margin: auto auto;
+  display: flex;
+  align-items: flex-end;
+  width: 1300px;
+  height: 100vh;
+}
+
+#main_1 {
+  margin-bottom: 20%;
+  margin-top: 0;
+}
+
+#main_1 .cls-1 {
+  fill: black;
+  stroke: black;
+  stroke-width: 0.4px;
+  animation: svg-anime 2s ease-in;
+  margin-bottom: auto;
+  margin-top: 0;
+}
+@keyframes svg-anime {
+  0% {
+    fill: transparent;
+    stroke-dasharray: 1000px;
+    stroke-dashoffset: 1000px;
+  }
+  90% {
+    fill: transparent;
+    stroke-dashoffset: 0;
+  }
+  100% {
+    fill: black;
+  }
+}
+
+.mainbox .text_1 {
+  width: 90px;
+  margin-bottom: 30px;
+}
+
+.mainbox .text_2 {
+  width: 90px;
+  margin-bottom: auto;
+  margin-top: 50px;
+}
+
+#main_2 {
+  margin: auto 0 0 0;
+}
+
+#main_2 .cls-1 {
+  fill: black;
+  stroke: black;
+  stroke-width: 0.4px;
+  animation: svg-anime-2 2s ease-in;
+}
+@keyframes svg-anime-2 {
+  0% {
+    fill: transparent;
+    stroke-dasharray: 1000px;
+    stroke-dashoffset: 1000px;
+  }
+  90% {
+    fill: transparent;
+    stroke-dashoffset: 0;
+  }
+  100% {
+    fill: black;
+  }
+}
+/* ///// */
+#germination {
+  background-image: url(../img/soil.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  width: 100vw;
+  height: 90vh;
+}
+
+.gn_text {
+  width: 1000px;
+  margin: 200px auto 0;
+}
+
+h1 {
+  font-size: 60px;
+  color: #6b7045;
+  text-align: center;
+  font-family: Optima;
+  font-weight: 200;
+}
+
+.gn_text p {
+  font-size: 22px;
+  color: #333;
+  text-align: center;
+  letter-spacing: 0.2rem;
+}
+
+.gn_img {
+  width: 750px;
+  margin: 170px auto 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.gn_img img {
+  width: 100px;
+}
+/* ////// */
+#root {
+  background-image: url(../img/line.png);
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.root_wrapper {
+  width: 1200px;
+  margin: 0 auto 0;
+  padding-top: 200px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+h2 {
+  font-size: 50px;
+  color: #6b7045;
+  font-family: Optima;
+  font-weight: 200;
+  letter-spacing: 0.2rem;
+}
+
+.root_text p {
+  font-size: 18px;
+  color: #333;
+  letter-spacing: 0.2rem;
+  margin-top: 0;
+  line-height: 1.5em;
+}
+
+.root_right img {
+  width: 650px;
+  transform: rotate(-30deg);
+  margin-top: 170px;
+}
+
+.root_left img {
+  width: 480px;
+}
+
+/* //////// */
+#virtue {
+  background-color: #6b7045;
+  width: 100vw;
+  height: 150vh;
+  margin-top: 200px;
+  padding-top: 100px;
+}
+
+.virtue_wrapper {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.virtue_1 {
+  position: relative;
+}
+
+h3 {
+  font-size: 60px;
+  color: #fff;
+  font-family: Optima;
+  font-weight: 200;
+  letter-spacing: 0.2rem;
+  margin: 0 0 30px;
+}
+
+.back_white1 {
+  background-color: #f2f2e5;
+  width: 670px;
+  height: 288px;
+}
+
+.virtue_1 img {
+  position: absolute;
+  width: 400px;
+  top: 150px;
+  left: 50px;
+}
+/* //// */
+.virtue_2 {
+  margin-top: 100px;
+  position: relative;
+}
+
+.virtue_2 p {
+  font-size: 18px;
+  color: #fff;
+  text-align: end;
+}
+
+.back_white2 {
+  background-color: #f2f2e5;
+  width: 670px;
+  height: 288px;
+  margin: 0 0 0 auto;
+}
+
+.virtue_2 img {
+  position: absolute;
+  width: 500px;
+  top: -150px;
+  right: 20px;
+}
+
+.copy_text {
+  align-items: center;
+  display: flex;
+  line-height: 40px;
+  overflow: hidden;
+  width: 100%;
+  white-space: nowrap;
+  z-index: 1;
+  margin-top: 200px;
+}
+.copy_text ul {
+  animation: copy 50s linear infinite;
+  transform: translateX(100%);
+  margin: 0;
+  padding: 0;
+}
+
+.copy_text ul li {
+  display: inline-block;
+  padding-right: 10px;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  opacity: 0.2;
+  color: #fff;
+  margin-right: 50px;
+}
+@keyframes copy {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* //////// */
+#face {
+  background-image: url(../img/root_back.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  width: 100vw;
+  height: 150vh;
+  margin-top: 300px;
+}
+
+.face_wrapper {
+  width: 950px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.face_right {
+  margin-left: 50px;
+}
+
+h4 {
+  font-size: 60px;
+  color: #6b7045;
+  font-family: Optima;
+  font-weight: 200;
+  letter-spacing: 0.25rem;
+  margin: 0 0 30px;
+}
+
+.face_right p {
+  font-size: 18px;
+  color: #333;
+  letter-spacing: 0.1rem;
+}
+
+.face_right .img_2 {
+  width: 450px;
+  margin: 80px 0 50px 0;
+  box-shadow: 0 5px 25px 0 rgba(64, 64, 64, 0.6);
+}
+
+.face_right .img_4 {
+  width: 380px;
+  box-shadow: 0 5px 25px 0 rgba(64, 64, 64, 0.6);
+}
+
+.face_left img:nth-child(1) {
+  width: 370px;
+  box-shadow: 0 5px 25px 0 rgba(64, 64, 64, 0.6);
+}
+
+.face_left img:nth-child(2) {
+  width: 450px;
+  margin-top: 50px;
+  box-shadow: 0 5px 25px 0 rgba(64, 64, 64, 0.6);
+}
+
+/* ////////// */
+.wear {
+  width: 100%;
+  margin: 0 0 0 auto;
+  overflow: hidden;
+}
+
+.wear_wrapper {
+  position: relative;
+  width: 100%;
+  height: 700px;
+}
+
+.items {
+  display: flex;
+  margin: 220px 0 0 auto;
+  list-style: none;
+  position: absolute;
+}
+
+.item {
+  width: 260px;
+  margin-right: 20px;
+}
+
+h5 {
+  font-size: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #f2f2e5;
+  text-align: center;
+  margin-top: -250px;
+  opacity: 0.2;
+}
+
+/*///////// */
+.logo {
+  width: 700px;
+  margin: 200px auto 0;
+}
+
+.logo img {
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+  height: 100%;
+  transform: scale(0);
+}
+
+/*///////// */
+footer {
+  background-image: url(../img/footer_img.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 330px;
+  width: 656px;
+  margin: 200px auto 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer p {
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.2rem;
+  line-height: 1.8em;
+  margin-top: 80px;
+}
+
+.footer p span {
+  text-align: center;
+  color: #fff;
+  font-size: 28px;
+}
